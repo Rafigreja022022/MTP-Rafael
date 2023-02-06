@@ -1,0 +1,46 @@
+//Scenarios login 1
+
+GIVEN que entro na “url”
+WHEN digito o “username” 
+AND digito a “senha”
+THEN recebo a “mensagem”
+
+| url                           | username          | senha         | mensagem                  |
+
+| https://www.saucedemo.com/    | standard_user     | secret_sauce  | Sauce Labs Fleece Jacket  |
+
+
+//Scenarios login 2
+
+GIVEN que entro na “url”
+WHEN digito o “username” 
+AND digito a “senha”
+THEN recebo a “mensagem”
+
+| url 					        | username          | senha         | mensagem                                              |
+
+| https://www.saucedemo.com/    | locked_out_user   | secret_sauce  | Epic sadface: Sorry, this user has been locked out.   |
+
+
+//Scenarios login 3
+
+GIVEN que entro na “url”
+WHEN digito o “username” 
+AND digito a “senha”
+THEN recebo a “mensagem”
+
+| url                           | username      | senha         | mensagem              |
+
+| https://www.saucedemo.com/    | problem_user  | secret_sauce  | Sauce Labs Backpack   |
+
+
+//Scenarios login 4
+
+GIVEN que entro na “url”
+WHEN digito o “username” 
+AND digito a “senha”
+THEN recebo a “mensagem”
+
+| url                           | username                  | senha         | mensagem  |
+
+| https://www.saucedemo.com/    | performance_glitch_user   | secret_sauce  | PRODUCTS  |
